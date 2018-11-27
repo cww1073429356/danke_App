@@ -7,15 +7,18 @@ export default class One extends Component{
         super();
         this.state={
 
+            list:[1,2,3]
         }
     }
   
     render(){
+        let {list}=this.state;
    
         return (
-            <Index/>
+            <Index  data={list} />
         )
     }
+
 
     
 }
