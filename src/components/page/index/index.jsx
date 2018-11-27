@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-import Index from './index'
+import Index from './indexUI'
 
 export default class One extends Component{
     constructor(){
