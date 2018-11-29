@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react'
+import HeaderUi from '../../../common/HeaderUi.jsx'
 
-export default function(){
-    return(
-        <div id="join"  className="page">
-        <h1>这是join组件</h1>
-        </div>
-    )
+
+export default class joinUI extends Component{
+    render(){
+        return(
+            <div id="join"  className="page">
+                <HeaderUi />                          
+            </div>
+        )
+    }
 }

@@ -1,15 +1,13 @@
-import React from 'react'
-
-export default function(props){
-    return(
-        <div id="index"  className="page">
-            <div >
-            <h1></h1>
-            </div>
-            <div>
-                <input/>
-                <p>查询</p>
-            </div>
-        </div>
-    )
-}
+import React, { Component } from 'react'
+import HeaderUi from '../../../common/HeaderUi.jsx'
+import './index.scss'
+export default class indexUI extends Component{
+    render(){
+            return(
+                
+                <div id="index"  className="page"> 
+                    <HeaderUi />                       
+                </div>
+            )
+        }
+    }

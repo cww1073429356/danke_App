@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import {BrowserRouter as Router, Route, NavLink as Link, Redirect, Switch} from 'react-router-dom'
+//头部
+import header from './common/header.jsx'
 
 
 
@@ -18,13 +20,15 @@ export default class App extends Component{
         return (
             <Router>
             <div className="app">
-
-
+            
+                
                 {/* Switch标签的功能：内部的Route只能第一个匹配上的作用 */}
                 <Switch>
                     <Route path="/" exact render={()=>{
                         //重定向
-                        return <Redirect to="/index"/>
+                        return <Redirect to="/index">
+                            <header></header>
+                        </Redirect>
                     }}/>
 
                     <Route path="/index" component={Index}/>
