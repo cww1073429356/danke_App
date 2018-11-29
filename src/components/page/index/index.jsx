@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+import './index.scss'
 import Index from './indexUI'
 
 export default class One extends Component{
@@ -18,7 +18,6 @@ export default class One extends Component{
             <Index  data={list} />
         )
     }
-
-
-    
+       
 }
+
