@@ -51,8 +51,8 @@ export default class App extends Component{
 
                 <nav className="tabs">
                     <Link className="tab" to="/index">首页</Link>
-                    <Link className="tab" to="/mine">个人中心</Link>
-                    <Link className="tab" to="/join">业主加盟</Link>
+                    <Link className="tab" to="/mine">个人</Link>
+                    <Link className="tab" to="/join">业主</Link>
                 </nav>
 
             </div>

@@ -1,0 +1,28 @@
+.seach{
+    width:6rem;
+    height:0.7rem;
+    background:#f6f7f8;
+    position:relative;
+    border-radius:0.35rem;
+    margin:0.13rem 0.2rem;
+    .sea{
+        width:0.38rem;
+        height:0.31rem;
+        float:left;
+        position:absolute;
+        left:0.6rem;
+        top:0.2rem;
+    }
+    input{
+        width:4.08rem;
+        height:0.68rem;
+        float:right;
+        background:#f6f7f8;
+        border:none;
+        font-size: 0.24rem;
+        line-height: 0.40rem;
+        color: #000; 
+        margin-right:0.8rem;
+        outline:none;
+    }
+}
